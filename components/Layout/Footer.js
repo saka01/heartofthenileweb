@@ -8,8 +8,8 @@ const Footer = () => {
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="copyright">
                                 <p>
-                                    © Copyright {new Date().getFullYear()} <a href="#">HeartOfTheNile</a>{" "}
-                                    All Rights Reserved
+                                    © Copyright {new Date().getFullYear()} <a href="#">Heart Of The Nile</a>{" "}
+                                    All Rights Reserved.
                                 </p>
                             </div>
                         </div>
