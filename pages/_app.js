@@ -1,4 +1,5 @@
 import "../public/css/style.css";
+import "../public/globals.css";
 import { SessionProvider } from "next-auth/react";
 import { Provider } from "react-redux";
 import store from "../redux/store";
