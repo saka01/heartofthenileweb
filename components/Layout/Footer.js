@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { Logo } from "../Logo";
 
 const Footer = () => {
     return (
@@ -7,39 +9,39 @@ const Footer = () => {
                 <div>
                     <h4 className="text-gray-100 text-lg font-semibold mb-20">About us</h4>
                     <div className="flex items-start">
-                        <a href="#">
-                            <Image
-                            src={"/images/logo.png"}
-                            width={100}
-                            height={100}
-                            alt="Heart Of The Nile Logo" />
-                        </a>
+                        <Logo />
                     </div>
                    <p className="w-full md:w-5/6 text-sm text-gray-100 tracking-wide mb-16">Heart Of The Nile is a unique and beautiful collection of Sudanese Foods right from Nile.</p>
                    
                     <div className="flex flex-col">
-                        <a href="#" className="text-gray-300 text-sm mb-5">Home</a>
-                        <a href="#" className="text-gray-300 text-sm mb-5">About</a>
-                        <a href="#" className="text-gray-300 text-sm mb-5">Menu</a>
-                        <a href="#" className="text-gray-300 text-sm">Contact</a>
+                        <Link href={"/"}> 
+                        <span className="text-gray-100 text-sm mb-5 cursor-pointer hover:font-semibold hover:text-[#CE2829]">Home</span></Link>
+                        <Link href={"about"} >
+                            <span className="text-gray-100 text-sm mb-5 cursor-pointer hover:font-semibold hover:text-[#CE2829]">About</span></Link>
+                        <Link href={"menu"} >
+                            <span className="text-gray-100 text-sm mb-5 cursor-pointer hover:font-semibold hover:text-[#CE2829]">Menu</span>
+                        </Link>
+                        <Link href={"#"}>
+                            <span className="text-gray-100 text-sm mb-5 cursor-pointer hover:font-semibold hover:text-[#CE2829]">Our Community</span>
+                        </Link>
                     </div>
                 </div>
                 <ul>
                 <h4 className="text-gray-100 text-lg font-semibold mb-20">Get in Touch</h4>
                     <li className="flex items-center mb-24">
-                       <span className="flex items-center justify-center rounded-full w-10 h-10 bg-[#262137] text-red-500 mr-3">
+                       <span className="flex items-center justify-center rounded-full w-10 h-10 bg-[#262137] text-[#CE2829] mr-3">
                             <i className="bi bi-telephone-fill"></i>
                         </span> 
-                        <a href="tel:(519) 915-1292" className="text-gray-300">(519) 915-1292</a>
+                        <a href="tel:(519) 915-1292" className="text-gray-300 hover:font-semibold">(519) 915-1292</a>
                     </li>
                     <li className="flex items-start">
-                       <span className="flex items-center justify-center rounded-full w-10 h-10 bg-[#262137] text-red-500 mr-3">
+                       <span className="flex items-center justify-center rounded-full w-10 h-10 bg-[#262137] text-[#CE2829] mr-3">
                             <i className="bi bi-geo-alt-fill"></i>
                         </span> 
                         <address className="text-gray-300">1256 Howard Avenue<br/> Windsor, Ontario</address>
                     </li>
                     <li className="flex items-start">
-                       <span className="flex items-center justify-center rounded-full w-10 h-10 bg-[#262137] text-red-500 mr-3">
+                       <span className="flex items-center justify-center rounded-full w-10 h-10 bg-[#262137] text-[#CE2829] mr-3">
                             <i className="bi bi-calendar3"></i>
                         </span> 
                         <div className="text-gray-300">
@@ -57,7 +59,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col md:flex-row items-center justify-between border-t border-t-slate-600 py-10 mt-10 px-24">
                <p className="text-gray-300 text-sm tracking-wide">© Copyright {new Date().getFullYear()} 
-               <a href="#" className="text-red-600 px-2">Heart Of The Nile</a>{" "}
+               <a href="#" className="text-[#CE2829] px-2">Heart Of The Nile</a>{" "}
                 All Rights Reserved.
                 </p>
                

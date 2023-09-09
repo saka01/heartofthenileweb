@@ -1,9 +1,10 @@
 import Footer from "./Footer"
-export const Layout = ({children}) => {
+import Header from "./Header"
+export const Layout = ({children, currentPage}) => {
     return(
         <>
-            <header></header>
-            <main>
+            <Header page={currentPage} />
+            <main className="px-24 py-20">
                 {children}
             </main>
             <Footer />

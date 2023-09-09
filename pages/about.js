@@ -6,7 +6,18 @@ import { Layout } from "/components";
 
 export default function About() {
   return (
-      <Layout>
+      <Layout currentPage="about">
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
         <h1>About</h1>
       </Layout>
         // <Layout pageClass="front"></Layout>
