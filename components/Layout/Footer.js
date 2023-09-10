@@ -10,9 +10,6 @@ const Footer = () => {
           <h4 className="text-gray-100 text-lg font-semibold mb-20">
             About us
           </h4>
-          <div className="flex items-start">
-            <Logo />
-          </div>
           <p className="w-full md:w-5/6 text-sm text-gray-100 tracking-wide mb-16">
             Heart Of The Nile is a unique and beautiful collection of Sudanese
             Foods right from Nile.
