@@ -7,6 +7,10 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  color: red;
+}
 .hero {
   height: 100vh;
   background: url(../public/images/HeartsofTheNileHero.png);

@@ -13,7 +13,7 @@ export const Item = ({img, text, customer}) => {
                     alt=""
                     />
                 
-                <div className="px-20 pb-20 w-full md:w-2/3">
+                <div className="px-20 py-20 w-full md:w-2/3">
                     <span className="text-red-600 text-3xl">
                         <i className="bi bi-quote"></i>  
                     </span>

@@ -41,7 +41,7 @@ export const Nav = {
     },
     TopBar: () => {
         return(
-            <div className="w-full flex items-center justify-end px-7 md:px-24 py-4">
+            <div className="w-full flex flex-col md:flex-row items-end md:items-center md:justify-end px-24 pt-4">
                 <a href="#" className="flex items-center text-gray-100 text-sm hover:font-semibold hover:text-white">
                     <i className="bi bi-geo-alt-fill"></i>
                     <span className="ml-1 tracking-wide">1256 Howard Avenue Windsor, Ontario</span>
