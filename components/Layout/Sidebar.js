@@ -16,7 +16,7 @@ function Sidebar() {
                 <div className="brand-logo">
                     <Link href="/admin">
                         <a className="full-logo">
-                            <img src="/images/logo.png" alt="" />
+                            <Image src="/images/logo.png" alt="" />
                         </a>
                     </Link>
                 </div>

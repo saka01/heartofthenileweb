@@ -11,7 +11,7 @@ export const Section = {
         className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center p-24"
       >
         <div className="w-full md:w-1/2">
-          <img src="/images/logo.png" alt="" className="w-full" />
+          <Image src="/images/logo.png" alt="" className="w-full" />
         </div>
         <div className="w-full md:w-1/2 md:pl-10">
           <h2 className="text-4xl text-gray-900 font-semibold">In Brief</h2>
@@ -49,7 +49,7 @@ export const Section = {
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <img src="/images/logo.png" alt="" className="w-full" />
+          <Image src="/images/logo.png" alt="" className="w-full" />
         </div>
       </section>
     );

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import Image from "next/image";
+
 // import PageTree from "./RightSidebar";
 function Header({ logoutHandler, isUser }) {
   const [isToggled, setToggled] = useState(false);
@@ -23,7 +25,7 @@ function Header({ logoutHandler, isUser }) {
                   <div className="brand-logo">
                     <Link href="/">
                       <a>
-                        <img
+                        <Image
                           src="/images/logo.png"
                           alt=""
                           className="logo-primary"

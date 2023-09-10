@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Bottom = () => {
   return (
@@ -8,7 +10,7 @@ const Bottom = () => {
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-7 col-sm-8">
               <div className="bottom-logo">
-                <img className="pb-15" src="/images/logow.png" alt="" />
+                <Image className="pb-15" src="/images/logow.png" alt="" />
 
                 <p>
                   Heart Of The Nile is a unique and beautiful collection of
