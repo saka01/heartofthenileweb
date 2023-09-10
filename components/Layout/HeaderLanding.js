@@ -97,23 +97,6 @@ function Header({ logoutHandler, isUser }) {
                       )}
                     </ul>
                   </div>
-
-                  <div className="signin-btn d-flex">
-                    <Link href="/cart" passHref>
-                      <a className="mx-20">
-                        <CartCounter />
-                      </a>
-                    </Link>
-                    {isUser ? (
-                      <a className="btn btn-primary" onClick={logoutHandler}>
-                        Logout
-                      </a>
-                    ) : (
-                      <Link href="/login" passHref>
-                        <a className="btn btn-primary">Login</a>
-                      </Link>
-                    )}
-                  </div>
                 </nav>
               </div>
             </div>
