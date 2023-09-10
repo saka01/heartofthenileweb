@@ -38,7 +38,10 @@ export const Section = {
             <div className="bg-[rgba(0,0,0,.15)] h-full flex flex-col justify-center px-24">
               <span className="bg-white w-56 py-5 px-10  text-gray-900 font-semibold tracking-wide">A Sudanese Restaurant</span>
               <h1 className="text-5xl md:text-7xl text-white my-20 font-extrabold uppercase">Heart of the Nile <br/>in london, ontario</h1>
-              <Button.Primary label="Order Now" icon />
+              <div className="flex flex-row justify-end">
+                <Button.Primary label="Order Now" icon />
+              </div>
+              
             </div>
           </section>
         )
