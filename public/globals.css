@@ -13,29 +13,29 @@
 }
 .hero {
   height: 100vh;
-  background: url(../public/images/HeartsofTheNileHero.png);
+  background: url(/images/HeartsofTheNileHero.png);
   background-position: center center;
   background-attachment: fixed;
 }
 
 .popular__items__large {
-  background: url(../public/images/HeartsofTheNile-9247.png);
+  background: url(/images/HeartsofTheNile-9247.png);
   background-position: center center;
 }
 .popular__items__1 {
-  background: url(../public/images/HeartsofTheNile-MeatPlate.png);
+  background: url(/images/HeartsofTheNile-MeatPlate.png);
   background-size: cover;
   background-position: center center;
   
 }
 .popular__items__2 {
-  background: url(../public/images/HeartsofTheNile-9248.png);
+  background: url(/images/HeartsofTheNile-9248.png);
   background-position: bottom center;
 }
 
 .footer-first {
   height: 100vh;
-  background: url(../public/images/HeartsofTheNile-Meat.png);
+  background: url(/images/HeartsofTheNile-Meat.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
