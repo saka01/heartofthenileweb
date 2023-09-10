@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useState } from "react";
-import CartCounter from "../CartCounter";
 import { useSelector } from "react-redux"
 // import PageTree from "./RightSidebar";
 function Header({ logoutHandler, isUser }) {

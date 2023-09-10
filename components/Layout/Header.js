@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Nav } from "./Nav";
 import { Logo } from "../Logo";
 import { navLinks } from "/utils";
-import CartCounter from "../CartCounter";
 import { useState } from "react";
 // import { DropdownMenu, DropdownToggle, UncontrolledDropdown } from "reactstrap";
 // const ThemeSwitch = dynamic(() => import('../elements/ThemeSwitch'), {

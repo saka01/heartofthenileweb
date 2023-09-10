@@ -13,6 +13,6 @@ export default function Home() {
         </Layout>
     // <main>
     //     <h1>Heart of the Nile</h1>
-    //   </main>
+    // </main>
   );
 }
