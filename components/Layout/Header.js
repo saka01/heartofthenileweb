@@ -25,7 +25,7 @@ function Header({ signoutHandler, role, page }) {
                         return(
                             <Nav.Item key={item.id} active={page} title={item.title} url={item.url}  />
                         )})}
-                        <Nav.Btn label={'order now'} />
+                        <Nav.Btn label={'Order Now'} />
                     </div>
                 </div>
             </nav>
@@ -34,7 +34,7 @@ function Header({ signoutHandler, role, page }) {
                     return(
                         <Nav.MobileItem key={item.id} active={page} title={item.title} url={item.url}  />
                     )})} 
-                <Nav.MobileBtn label={'order now'} />
+                <Nav.MobileBtn label={'Order Now'} />
             </div> 
             </div>
         </header>

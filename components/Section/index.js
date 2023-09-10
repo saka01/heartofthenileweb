@@ -1,8 +1,37 @@
+import Image from "next/image";
 import { Button } from "../Button";
 import { Carousel } from "../Carousel";
 import { testimonialData } from "/utils";
 
 export const Section = {
+    Brief: () => {
+      return(
+        <section id="about__brief" className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center p-24">
+          <div className="w-full md:w-1/2">
+            <img src="/images/logo.png" alt="" className="w-full" />
+          </div>
+          <div className="w-full md:w-1/2 md:pl-10">
+            <h2 className="text-4xl text-gray-900 font-semibold">In Brief</h2>
+            <p className="py-20 leading-7 tracking-wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </section>
+      )
+    },
+    Work: () => {
+      return(
+        <section id="about__work__with__us" className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center my-20 p-24">
+          <div className="w-full md:w-1/2 md:pr-10">
+            <h2 className="text-4xl text-gray-900 font-semibold">Working with Us</h2>
+            <p className="py-20 leading-7 tracking-wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div className="w-full md:w-1/2">
+            <img src="/images/logo.png" alt="" className="w-full" />
+          </div>
+          
+        </section>
+      )
+      
+    },
     Hero: () => {
         return(
             <section id="hero" className="hero ">
