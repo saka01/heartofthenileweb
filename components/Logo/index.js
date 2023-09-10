@@ -6,8 +6,8 @@ export const Logo = () => {
         <Link href={"/"} className="navbar-brand">
             <Image
             src={"/images/logo.png"}
-            width={100}
-            height={100}
+            width={200}
+            height={150}
             alt="Heart Of The Nile Logo" />
         </Link> 
     )
