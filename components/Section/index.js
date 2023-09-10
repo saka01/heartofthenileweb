@@ -48,7 +48,7 @@ export const Section = {
             <section id="popular__items" className="my-24 p-24">
             <div className="text-center">
               <span className="bg-red-200 p-10 text-sm font-semibold tracking-wide rounded text-red-500">Tasty Customer Favorites</span>
-              <h2 className="text-6xl text-gray-900 font-bold my-20">Popular Items</h2>
+              <h2 className="text-4xl text-gray-900 font-bold my-20">Popular Items</h2>
             </div>
             <div className="w-full md:w-4/6 py-24 mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-10">
               <div className="popular__items__large rounded row-span-2">
