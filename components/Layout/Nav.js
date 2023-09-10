@@ -18,7 +18,7 @@ export const Nav = {
     Btn: ({label}) => {
         return(
             <Link href={"#"}>
-                <span className="ml-5 w-44  bg-white py-12 px-10 rounded-2xl shadow text-gray-900 hover:text-[#CE2829] cursor-pointer capitalize font-semibold">{label} <i className="bi bi-cart-fill"></i></span>
+                <span className="ml-5 w-44  bg-white py-12 text-xl px-10 rounded-2xl shadow text-gray-900 hover:text-[#CE2829] cursor-pointer capitalize font-semibold">{label} <i className="bi bi-cart-fill"></i></span>
             </Link>
         )
         
@@ -33,7 +33,7 @@ export const Nav = {
     MobileBtn: ({label}) => {
         return(
             <Link href={"#"}>
-                <span className="w-40 text-center bg-white py-12 px-10 rounded-2xl shadow text-gray-900 hover:text-[#CE2829] cursor-pointer font-semibold capitalize">{label} <i className="bi bi-cart-fill"></i></span>
+                <span className="w-40 text-center text-xl bg-white py-12 px-10 rounded-2xl shadow text-gray-900 hover:text-[#CE2829] cursor-pointer font-semibold capitalize">{label} <i className="bi bi-cart-fill"></i></span>
             </Link>
         )
         

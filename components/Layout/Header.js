@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Nav } from "./Nav";
 import { Logo } from "../Logo";
+import { navLinks } from "/utils";
 import CartCounter from "../CartCounter";
 import { useState } from "react";
 // import { DropdownMenu, DropdownToggle, UncontrolledDropdown } from "reactstrap";
@@ -12,28 +13,30 @@ function Header({ signoutHandler, role, page }) {
     const [isToggled, setToggled] = useState(false);
     const toggleTrueFalse = () => setToggled(!isToggled);
     return (
-        <header className="bg-[#CE2829] sticky-top shadow-md relative">
+        <header className="bg-[#CE2829] sticky-top shadow-md">
+            <div className="relative">
             <Nav.TopBar />
             <nav className={`px-24 navbar navbar-expand-lg flex items-center justify-between`}>
                 <Logo />    
                 <div className="flex items-center">
                     <Nav.ToggleBtn handleClick={toggleTrueFalse} />
                     <div className={`hidden md:inline-block`}> 
-                        <Nav.Item active={page} title={'home'} url={'/'}  />
-                        <Nav.Item active={page} title={'menu'} url={'#'}  />
-                        <Nav.Item active={page} title={'about'} url={'about'}  />
-                        <Nav.Item active={page} title={'our community'} url={'#'}  />
+                        {navLinks.map((item) => { 
+                        return(
+                            <Nav.Item key={item.id} active={page} title={item.title} url={item.url}  />
+                        )})}
                         <Nav.Btn label={'order now'} />
                     </div>
                 </div>
             </nav>
             <div className={`${isToggled ? 'flex flex-col' : 'hidden'} absolute md:hidden px-24 bg-[#CE2829] w-full pb-20`}>  
-                <Nav.MobileItem active={page} title={'home'} url={'/'}  />  
-                <Nav.MobileItem active={page} title={'menu'} url={'#'}  />  
-                <Nav.MobileItem active={page} title={'about'} url={'about'}  />  
-                <Nav.MobileItem active={page} title={'our community'} url={'#'}  />  
+                {navLinks.map((item) => { 
+                    return(
+                        <Nav.MobileItem key={item.id} active={page} title={item.title} url={item.url}  />
+                    )})} 
                 <Nav.MobileBtn label={'order now'} />
             </div> 
+            </div>
         </header>
         // <>
 

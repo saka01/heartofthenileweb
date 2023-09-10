@@ -4,7 +4,7 @@ export const Layout = ({children, currentPage}) => {
     return(
         <>
             <Header page={currentPage} />
-            <main className="px-24 py-20">
+            <main className="">
                 {children}
             </main>
             <Footer />
