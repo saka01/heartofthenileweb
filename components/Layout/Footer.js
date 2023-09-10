@@ -50,10 +50,10 @@ const Footer = () => {
               <i className="bi bi-telephone-fill"></i>
             </span>
             <a
-              href="tel:(519) 915-1292"
+              href="tel:(519) 432-3222"
               className="text-gray-300 hover:font-semibold"
             >
-              (519) 915-1292
+              (519) 432-3222
             </a>
           </li>
           <li className="flex items-start">
@@ -61,8 +61,10 @@ const Footer = () => {
               <i className="bi bi-geo-alt-fill"></i>
             </span>
             <address className="text-gray-300">
-              1256 Howard Avenue
-              <br /> Windsor, Ontario
+              The W.E.A.N. Community Centre
+              <br /> 534 Queens Avenue
+              <br /> London, Ontario
+              <br /> Canada. N6B1Y6
             </address>
           </li>
           <li className="flex items-start">
@@ -79,7 +81,7 @@ const Footer = () => {
         </ul>
         <div className="w-full  flex justify-start md:justify-end">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.6547754454746!2d-83.0225748!3d42.3072312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2cf0ff8140e5%3A0xc79f24eea7af6519!2s1256%20Howard%20Ave%20%231%2C%20Windsor%2C%20ON%20N9A%204C5%2C%20Canada!5e0!3m2!1sen!2sng!4v1694215960790!5m2!1sen!2sng"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4602835255823!2d-81.23806602343045!3d42.98964159509396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef34b4449b9a1%3A0x7d1d6a12fea820f0!2sW.E.A.N%20Community%20Centre!5e0!3m2!1sen!2sca!4v1694387559601!5m2!1sen!2sca"
             width="400"
             height="300"
             style={{ border: 0 }}

@@ -65,7 +65,7 @@ export const Nav = {
         >
           <i className="bi bi-geo-alt-fill"></i>
           <span className="ml-1 tracking-wide">
-            1256 Howard Avenue Windsor, Ontario
+            The W.E.A.N. Community Center. London, Ontario
           </span>
         </a>
         <a
@@ -73,7 +73,7 @@ export const Nav = {
           className="ml-5 flex items-center text-gray-100 text-sm hover:font-semibold hover:text-white"
         >
           <i className="bi bi-telephone-fill"></i>
-          <span className="ml-1 tracking-wide">1(800) 345-7890</span>
+          <span className="ml-1 tracking-wide">+1 (519) 432-3222</span>
         </a>
       </div>
     );
