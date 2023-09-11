@@ -8,21 +8,29 @@ export const Section = {
     return (
       <section
         id="about__brief"
-        className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center p-24"
+        className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center p-24 mt-100 mb-100"
       >
         <div className="w-full md:w-1/2">
-          <Image src="/images/logo.png" width={203} height={54} alt="" className="w-full" />
+          <Image
+            src="/images/logo.png"
+            width={203}
+            height={54}
+            alt=""
+            className="w-full"
+          />
         </div>
         <div className="w-full md:w-1/2 md:pl-10">
           <h2 className="text-4xl text-gray-900 font-semibold">In Brief</h2>
           <p className="py-20 leading-7 tracking-wide">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            We are committed to offering an authentic Sudanese dining
+            experience. Our culinary journey began with a simple vision: to
+            bring the rich flavors of Sudan to the heart of Ottawa.
+            <br />
+            <br /> We take pride in sourcing high-quality ingredients and
+            crafting them into delectable dishes that represent the essence of
+            Sudanese cuisine. Our team is dedicated to providing exceptional
+            service, ensuring that each guest leaves with a memorable
+            experience.
           </p>
         </div>
       </section>
@@ -32,24 +40,56 @@ export const Section = {
     return (
       <section
         id="about__work__with__us"
-        className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center my-20 p-24"
+        className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center my-20 p-24 mt-50 mb-100"
       >
         <div className="w-full md:w-1/2 md:pr-10">
           <h2 className="text-4xl text-gray-900 font-semibold">
             Working with Us
           </h2>
           <p className="py-20 leading-7 tracking-wide">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Are you passionate about food, culture, and community? If so, Heart
+            of the Nile might be the perfect place for you. We're always on the
+            lookout for talented individuals who share our values and vision.
+            <br />
+            <br />
+            Interested in working with us? Send your resume and a cover letter
+            to [orders@heartofthenile.com], or visit our restaurant to fill out
+            an application.
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <Image src="/images/logo.png" width={203} height={54} alt="" className="w-full" />
+          <Image
+            src="/images/logo.png"
+            width={203}
+            height={54}
+            alt=""
+            className="w-full"
+          />
+        </div>
+      </section>
+    );
+  },
+  Community: () => {
+    return (
+      <section
+        id="about__work__with__us"
+        className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center my-20 p-24 mt-100 mb-100"
+      >
+        <div className="w-full md:w-1/2 md:pr-10">
+          <h2 className="text-4xl text-gray-900 font-semibold">
+            Our Community
+          </h2>
+          <p className="py-20 leading-7 tracking-wide">
+            At Heart of the Nile, community is not just a word; it's a way of
+            life. We believe that food is a universal language that brings
+            people together. Our restaurant is not just a place to eat; it's a
+            gathering spot for friends, families, and neighbors.
+            <br />
+            <br />
+            Become a part of our growing community by joining our newsletter,
+            participating in our events, or simply enjoying a meal at our
+            restaurant. Together, we can make a difference.
+          </p>
         </div>
       </section>
     );

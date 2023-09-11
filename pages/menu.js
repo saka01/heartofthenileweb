@@ -5,8 +5,7 @@ import { Layout, Section } from "/components";
 export default function Menu() {
   return (
     <Layout currentPage="Menu">
-      <Section.Brief />
-      <Section.Work />
+      <Section.Hero />
     </Layout>
   );
 }

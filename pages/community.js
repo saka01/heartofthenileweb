@@ -5,8 +5,7 @@ import { Layout, Section } from "/components";
 export default function Community() {
   return (
     <Layout currentPage="Community">
-      <Section.Brief />
-      <Section.Work />
+      <Section.Community />
     </Layout>
   );
 }
