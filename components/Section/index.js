@@ -48,8 +48,9 @@ export const Section = {
           </h2>
           <p className="py-20 leading-7 tracking-wide">
             Are you passionate about food, culture, and community? If so, Heart
-            of the Nile might be the perfect place for you. We're always on the
-            lookout for talented individuals who share our values and vision.
+            of the Nile might be the perfect place for you. We&#39re always on
+            the lookout for talented individuals who share our values and
+            vision.
             <br />
             <br />
             Interested in working with us? Send your resume and a cover letter
@@ -80,10 +81,10 @@ export const Section = {
             Our Community
           </h2>
           <p className="py-20 leading-7 tracking-wide">
-            At Heart of the Nile, community is not just a word; it's a way of
+            At Heart of the Nile, community is not just a word; it&#39s a way of
             life. We believe that food is a universal language that brings
-            people together. Our restaurant is not just a place to eat; it's a
-            gathering spot for friends, families, and neighbors.
+            people together. Our restaurant is not just a place to eat; it&#39s
+            a gathering spot for friends, families, and neighbors.
             <br />
             <br />
             Become a part of our growing community by joining our newsletter,
