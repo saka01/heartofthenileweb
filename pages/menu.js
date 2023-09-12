@@ -104,30 +104,33 @@ const foodMenu = [
 ];
 
 const MenuCard = ({ item }) => (
-  <div className="bg-white p-10 rounded-md shadow-md w-1/4 m-4 flex flex-col items-center">
-    <div className="w-full h-full relative">
+  <div className="bg-white p-10 rounded-lg shadow-md w-1/4 m-60 flex flex-col items-center">
+    <div className="w-full h-[300px] relative rounded-lg overflow-hidden">
       <Image
         src={item.image || "/images/logo.png"}
         layout="fill"
         objectFit="cover"
-        className="rounded-t-md"
+        className="rounded-lg"
       />
     </div>
-    <div className="w-full flex flex-col p-2">
+    <div className="w-full flex flex-col items-start mt-4">
       <h2 className="text-xl font-semibold">{item.name}</h2>
       <p className="text-sm text-gray-500">{item.description}</p>
-      <span className="text-lg font-bold">{item.price}</span>
+      <br/>
+      <span className="text-lg font-bold ">{item.price}</span>
     </div>
   </div>
 );
 
+
 const RestaurantMenu = () => (
-  <div className="flex flex-wrap p-8 bg-gray-200 h-screen">
+  <div className="flex flex-wrap p-8 bg-gray-200">
     {foodMenu.map((item) => (
       <MenuCard key={item.id} item={item} />
     ))}
   </div>
 );
+
 
 export default function Menu() {
   return (
