@@ -25,7 +25,7 @@ export const Section = {
           <p className="py-20 leading-7 tracking-wide">
             We are committed to offering an authentic Sudanese dining
             experience. Our culinary journey began with a simple vision: to
-            bring the rich flavors of Sudan to the heart of Ottawa.
+            bring the rich flavors of Sudan to the heart of London.
             <br />
             <br /> We take pride in sourcing high-quality ingredients and
             crafting them into delectable dishes that represent the essence of
@@ -161,7 +161,7 @@ export const Section = {
             <div className="bg-[rgba(0,0,0,.3)] h-full p-10 flex flex-col justify-center group hover:bg-[rgba(0,0,0,.15)]">
               <h3 className="text-3xl text-white font-semibold">
                 The Best North African food in{" "}
-                <span className="text-red-600">Ottawa, ON</span>
+                <span className="text-red-600">London, ON</span>
               </h3>
               <p className="mt-5 mb-10 text-white font-medium tracking-wide"></p>
               <Button.Secondary label="order now" icon={false} />
