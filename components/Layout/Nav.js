@@ -25,9 +25,9 @@ export const Nav = {
       </button>
     );
   },
-  Btn: ({ label }) => {
+  Btn: ({ url, label }) => {
     return (
-      <Link href={"#"}>
+      <Link href={`${url}`}>
         <span className="ml-5 w-44  bg-white py-12 text-xl px-10 rounded-2xl shadow text-gray-900 hover:text-[#CE2829] cursor-pointer capitalize font-semibold">
           {label} <i className="bi bi-cart-fill"></i>
         </span>

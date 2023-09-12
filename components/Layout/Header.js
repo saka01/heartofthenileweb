@@ -32,7 +32,7 @@ function Header({ signoutHandler, role, page }) {
                   />
                 );
               })}
-              <Nav.Btn label={"Order Now"} />
+              <Nav.Btn label={"Order Now"} url={"/menu"}/>
             </div>
           </div>
         </nav>

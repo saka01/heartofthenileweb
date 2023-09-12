@@ -107,8 +107,12 @@ export const Section = {
             Heart of the Nile <br />
             in london, ontario
           </h1>
-          <div className="flex flex-row justify-end">
-            <Button.Primary label="Order Now" icon />
+          <div className="flex flex-row justify-center">
+            <Button.Primary
+              label="Call NOW to order"
+              url="tel:(519) 432-3222"
+              icon
+            />
           </div>
         </div>
       </section>
