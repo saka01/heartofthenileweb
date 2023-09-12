@@ -91,10 +91,17 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row items-center justify-between border-t border-t-slate-600 py-10 mt-10 px-24">
         <p className="text-gray-300 text-sm tracking-wide">
           © Copyright {new Date().getFullYear()}
-          <a href="#" className="text-[#CE2829] px-2">
-            Heart Of The Nile
+          <a href="heartofthenile.com" className="text-[#CE2829] px-2">
+          Heart Of The Nile
           </a>{" "}
           All Rights Reserved.
+        </p>
+
+        <p className="text-gray-300 text-sm tracking-wide">
+    
+          <a href="vyralgent.com" className="text-[#CE2829] px-2">
+          Vyralgent
+          </a>{" "} Labs
         </p>
 
         <div className="flex items-center mt-10 md:mt-0">
