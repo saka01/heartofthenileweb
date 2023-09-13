@@ -65,7 +65,7 @@ export const Nav = {
         >
           <i className="bi bi-geo-alt-fill"></i>
           <span className="ml-1 tracking-wide">
-            The W.E.A.N. Community Center. London, Ontario
+            Heart Of The Nile. London, Ontario.
           </span>
         </a>
         <a

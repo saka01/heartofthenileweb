@@ -58,7 +58,7 @@ const Footer = () => {
               <i className="bi bi-geo-alt-fill"></i>
             </span>
             <address className="text-gray-300">
-              The W.E.A.N. Community Centre
+              Heart Of The Nile
               <br /> 534 Queens Avenue
               <br /> London, Ontario
               <br /> Canada. N6B1Y6
