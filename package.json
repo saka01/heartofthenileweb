@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "mobileview": "next dev -H {your ip}",
     "lint": "next lint",
     "sass": "sass --watch public/scss/style.scss:public/css/style.css"
   },

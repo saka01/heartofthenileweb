@@ -12,7 +12,7 @@ export const Carousel = ({ data }) => {
       {data.map((item) => {
         return (
           <SwiperSlide key={item.id}>
-            <Item img={item.image} text={item.text} customer={item.customer} />
+            <Item text={item.text} customer={item.customer} />
           </SwiperSlide>
         );
       })}

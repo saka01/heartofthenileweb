@@ -11,6 +11,28 @@
 .swiper-button-next::after, .swiper-button-prev::after {
   color: red;
 }
+/* Mobile view */
+@media (max-width: 640px) {
+  .swiper-button-prev {
+    left: 5px !important; /* or right: 5px for .swiper-button-next */
+  }
+  .swiper-button-next {
+    right: 15px !important; /* or right: 5px for .swiper-button-next */
+
+  }
+}
+
+/* Tablet and above */
+@media (min-width: 641px) {
+  .swiper-button-next {
+    right: 310px !important;
+  }
+  .swiper-button-prev {
+    left: 310px !important;
+  }
+}
+
+
 .hero {
   height: 100vh;
   background: url(/images/HeartsofTheNileHero.png);

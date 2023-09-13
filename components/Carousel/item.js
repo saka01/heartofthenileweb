@@ -1,13 +1,9 @@
-import Image from "next/image";
-
-export const Item = ({ img, text, customer }) => {
+export const Item = ({ text, customer }) => {
   return (
-    <div className=" w-full my-20 mx-auto">
-      <div className="shadow-sm rounded md:shadow w-full md:w-4/6 mx-auto flex flex-col md:flex-row md:items-center">
-        {/* <img src={img} alt="" className="w-full" /> */}
-        <Image src={img} height={350} width={350} alt="" />
+    <div className="w-[80%] my-20 mx-auto">
+      <div className="shadow-sm rounded md:shadow w-full mx-auto flex flex-col md:flex-row md:items-center">
 
-        <div className="px-20 py-20 w-full md:w-2/3">
+        <div className="px-6 py-6 w-full max-w-2xl mx-auto">
           <span className="text-red-600 text-3xl">
             <i className="bi bi-quote"></i>
           </span>

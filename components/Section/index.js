@@ -173,16 +173,16 @@ export const Section = {
   },
   Testimonial: () => {
     return (
-      <section id="testimonial" className="my-24 p-24">
+      <section id="testimonial" className="my-8 md:my-24 p-4 md:p-24">
         <div className="text-center">
-          <span className="bg-red-100 p-10 text-sm font-semibold tracking-wide rounded text-red-500">
+          <span className="bg-red-100 p-2 md:p-10 text-xs md:text-sm font-semibold tracking-wide rounded text-red-500">
             Testimonial
           </span>
-          <h2 className="text-4xl text-gray-900 font-bold my-20">
+          <h2 className="text-2xl md:text-4xl text-gray-900 font-bold my-10 md:my-20">
             What Our Customers Say
           </h2>
         </div>
-        <Carousel data={testimonialData} />
+        <Carousel data={testimonialData} className="carousel-custom-styles" />
       </section>
     );
   },
