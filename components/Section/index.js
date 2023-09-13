@@ -142,7 +142,7 @@ export const Section = {
                   The heart of the Nile
                 </span>
               </p>
-              <Button.Secondary label="order now" icon={false} />
+              <Button.Secondary label="order now" url={"/menu"} icon={false} />
             </div>
           </div>
           <div className="popular__items__1 rounded">
@@ -154,7 +154,7 @@ export const Section = {
               <p className="mt-5 mb-10 text-white font-medium tracking-wide">
                 {" "}
               </p>
-              <Button.Secondary label="order now" icon={false} />
+              <Button.Secondary label="order now" url={"/menu"} icon={false} />
             </div>
           </div>
           <div className="popular__items__2 rounded">
@@ -164,7 +164,7 @@ export const Section = {
                 <span className="text-red-600">London, ON</span>
               </h3>
               <p className="mt-5 mb-10 text-white font-medium tracking-wide"></p>
-              <Button.Secondary label="order now" icon={false} />
+              <Button.Secondary label="order now" url={"/menu"} icon={false} />
             </div>
           </div>
         </div>

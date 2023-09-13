@@ -32,7 +32,7 @@ function Header({ signoutHandler, role, page }) {
                   />
                 );
               })}
-              <Nav.Btn label={"Order Now"} url={"/menu"}/>
+              <Nav.Btn label={"Order Now"} url={"/menu"} />
             </div>
           </div>
         </nav>
@@ -51,7 +51,7 @@ function Header({ signoutHandler, role, page }) {
               />
             );
           })}
-          <Nav.MobileBtn label={"Order Now"} />
+          <Nav.MobileBtn label={"Order Now"} url={"/menu"} />
         </div>
       </div>
     </header>
