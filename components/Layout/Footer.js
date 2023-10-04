@@ -99,9 +99,9 @@ const Footer = () => {
 
         <p className="text-gray-300 text-sm tracking-wide">
     
-          <a href="vyralgent.com" className="text-[#CE2829] px-2">
-          Vyralgent
-          </a>{" "} Labs
+          <a href="pivotintegrated.com" className="text-[#CE2829] px-2">
+          PivotIntegrated
+          </a>{" "} Technologies
         </p>
 
         <div className="flex items-center mt-10 md:mt-0">

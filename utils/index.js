@@ -23,17 +23,17 @@ export const navLinks = [
 export const testimonialData = [
   {
     id: 1,
-    customer: "John Doe",
-    text: "An image carousel is a container (slideshow) of images or info that users can select by clicking a button that directs them forward or backward in the slideshow. An image carousel makes a website more interactive by enhancing the user experience.",
+    customer: "Alice Thompson",
+    text: "The falafel and hummus here are out of this world! The atmosphere really makes you feel like you're dining by the Nile. A must-visit for anyone craving authentic Sudanese cuisine.",
   },
   {
     id: 2,
-    customer: "Jane Doe",
-    text: "An image carousel is a container (slideshow) of images or info that users can select by clicking a button that directs them forward or backward in the slideshow. An image carousel makes a website more interactive by enhancing the user experience.",
+    customer: "Mark Williams",
+    text: "Heart of the Nile offers a culinary journey through Sudan. The lamb stew was tender, and the spices were perfectly balanced. It's like a mini-vacation in every bite!",
   },
   {
     id: 3,
-    customer: "Ifeoma Doe",
-    text: "An image carousel is a container (slideshow) of images or info that users can select by clicking a button that directs them forward or backward in the slideshow. An image carousel makes a website more interactive by enhancing the user experience.",
+    customer: "Sophia Martinez",
+    text: "This restaurant is a hidden gem! The staff was friendly, and the food was absolutely delicious. I've never had Sudanese food before, but now I'm hooked. The Asida was to die for!",
   },
 ];
