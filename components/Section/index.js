@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "../Button";
 import { Carousel } from "../Carousel";
 import { testimonialData } from "/utils";
+import { Contact } from "../Forms/contact";
 
 export const Section = {
   Brief: () => {
@@ -67,31 +68,6 @@ export const Section = {
             alt=""
             className="w-full"
           />
-        </div>
-      </section>
-    );
-  },
-  Community: () => {
-    return (
-      <section
-        id="about__work__with__us"
-        className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center my-20 p-24 mt-100 mb-100"
-      >
-        <div className="w-full md:w-1/2 md:pr-10">
-          <h2 className="text-4xl text-gray-900 font-semibold">
-            Our Community
-          </h2>
-          <p className="py-20 leading-7 tracking-wide">
-            At Heart of the Nile, community is not just a word; it&apos;s a way
-            of life. We believe that food is a universal language that brings
-            people together. Our restaurant is not just a place to eat;
-            it&apos;s a gathering spot for friends, families, and neighbors.
-            <br />
-            <br />
-            Become a part of our growing community by joining our newsletter,
-            participating in our events, or simply enjoying a meal at our
-            restaurant. Together, we can make a difference.
-          </p>
         </div>
       </section>
     );
@@ -189,5 +165,36 @@ export const Section = {
   },
   FooterFirst: () => {
     return <section id="footer-first" className="footer-first"></section>;
+  },
+  Community: () => {
+    return (
+      <section
+        id="about__brief"
+        className="flex w-full md:w-5/6 mx-auto flex-col md:flex-row md:items-center p-24 mt-100 mb-100"
+      >
+        <div className="w-full md:w-1/2 md:pl-10">
+          <h2 className="text-4xl text-gray-900 font-semibold">
+            Our Community
+          </h2>
+          <p className="py-20 leading-7 tracking-wide">
+            At Heart of the Nile, community is not just a word; it&apos;s a way
+            of life. We believe that food is a universal language that brings
+            people together. Our restaurant is not just a place to eat;
+            it&apos;s a gathering spot for friends, families, and neighbors.
+            <br />
+            <br />
+            Become a part of our growing community by joining our newsletter,
+            participating in our events, or simply enjoying a meal at our
+            restaurant. Together, we can make a difference.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2">
+          <h2 className="text-4xl text-gray-900 font-semibold ">
+            Send Us A Message!
+          </h2>
+          <Contact />
+        </div>
+      </section>
+    );
   },
 };
