@@ -189,9 +189,7 @@ export const Section = {
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <h2 className="text-4xl text-gray-900 font-semibold ">
-            Send Us A Message!
-          </h2>
+         
           <Contact />
         </div>
       </section>
