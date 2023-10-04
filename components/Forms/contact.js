@@ -1,4 +1,4 @@
-export const Contact = ({ text, customer }) => {
+export const Contact = () => {
   return (
     <div class="flex items-center justify-center p-42 border-2 border-red-600 rounded-md">
       <div class="mx-auto w-full max-w-[550px] ">
@@ -7,7 +7,7 @@ export const Contact = ({ text, customer }) => {
         </h2>
         <br />
         <br />
-        <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <form action="https://formspree.io/f/xknlppzr" method="POST">
           <div class="mb-5">
             <label
               for="name"
@@ -66,4 +66,4 @@ export const Contact = ({ text, customer }) => {
       </div>
     </div>
   );
-}
+};
