@@ -111,6 +111,7 @@ export const Section = {
             <Button.Primary
               label="Call NOW to order"
               url="tel:(519) 432-3222"
+              bgColor="red"
               icon
             />
           </div>

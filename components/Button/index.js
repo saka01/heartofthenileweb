@@ -17,7 +17,8 @@ export const Button = {
     return (
       <Link href={`${url}`}>
         <span
-          className={`w-64 text-center text-xl  py-12 px-10 rounded-2xl shadow hover:shadow-2xl bg-[${theme.primary}] text-white  cursor-pointer uppercase font-semibold`}
+          style={{ backgroundColor: "red" }}
+          className={`w-64 text-center text-xl py-12 px-10 rounded-2xl shadow hover:shadow-2xl text-white  cursor-pointer uppercase font-semibold`}
         >
           {label} {icon ? <i className="bi bi-cart-fill"></i> : null}
         </span>
